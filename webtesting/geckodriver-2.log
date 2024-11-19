@@ -1,0 +1,13 @@
+1731979968492	geckodriver	INFO	Listening on 127.0.0.1:33837
+1731979968531	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47549" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeYZUDe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731979969593	Marionette	INFO	Marionette enabled
+1731979969980	Marionette	INFO	Listening on port 43423
+Read port: 43423
+WebDriver BiDi listening on ws://127.0.0.1:47549
+1731979970295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:47549/devtools/browser/772b7e44-50ad-4706-b053-a08a6ff2a2da
+JavaScript warning: https://www.amazon.com.br/, line 1006: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1731979973446	Marionette	INFO	Stopped listening on port 43423
