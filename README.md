@@ -7,9 +7,14 @@
 
 * para instalar no linux você precisa usar o *venv* 
 *python3 -m venv nome-do-venv* , este comando cria o ambiente virtual depois só ativar ele.
-*nome-do-venv\Scripts\activate*
+*source nome-do-venv/bin/activate*
 feito isso basta instalar o robote e seus pacotes dentro do venv criado
 *desativando o venv*
 usar  deactivate
+
+*exemplo de como pegar um bom seletor*
+* //a[contains(text(), 'Eletrônicos') and contains(@class, 'nav-a')]
+* //h2[contains(text(), 'Eletrônicos e Tecnologia') and contains (@class, 'a-size-base a-color-base apb-browse-refinements-indent-1 a-text-bold')]
+
 
 

@@ -1,15 +1,15 @@
-1731981259883	geckodriver	INFO	Listening on 127.0.0.1:58819
-1731981259921	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50401" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewZfcCC"
+1732016547335	geckodriver	INFO	Listening on 127.0.0.1:42515
+1732016547375	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "37415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9ZOTSD"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1731981260831	Marionette	INFO	Marionette enabled
-1731981261229	Marionette	INFO	Listening on port 34343
-Read port: 34343
-WebDriver BiDi listening on ws://127.0.0.1:50401
-1731981261526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1732016548360	Marionette	INFO	Marionette enabled
+1732016549020	Marionette	INFO	Listening on port 45299
+WebDriver BiDi listening on ws://127.0.0.1:37415
+Read port: 45299
+1732016549238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
-DevTools listening on ws://127.0.0.1:50401/devtools/browser/99989abc-6a02-472c-b8eb-1e70da3f8876
-JavaScript warning: https://www.amazon.com.br/, line 3362: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+DevTools listening on ws://127.0.0.1:37415/devtools/browser/99126beb-0139-4861-b7aa-c29f0c297c2f
+JavaScript warning: https://www.amazon.com.br/, line 3554: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 libva info: VA-API version 1.20.0
 libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
 libva info: Found init function __vaDriverInit_1_20
@@ -18,9 +18,5 @@ libva info: va_openDriver() returns 1
 libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
 libva info: Found init function __vaDriverInit_1_20
 libva info: va_openDriver() returns 0
+JavaScript warning: https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522, line 5926: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://m.media-amazon.com/images/I/81LmaXL9x7L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://www.amazon.com.br/, line 1467: Script terminated by timeout at:
-D@https://www.amazon.com.br/:1467:5738
-D/<@https://www.amazon.com.br/:1467:686
-
-1731981300369	Marionette	INFO	Stopped listening on port 34343
