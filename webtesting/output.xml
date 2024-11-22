@@ -1,60 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.3 on linux)" generated="2024-11-19T08:42:27.079419" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1.1 (Python 3.12.3 on linux)" generated="2024-11-22T07:40:47.592774" rpa="false" schemaversion="5">
 <suite id="s1" name="Testesweb" source="/home/usernoteponto/Documentos/projects/robotFramework-basico/webtesting/testesweb.robot">
 <test id="s1-t1" name="Caso de teste 01 - Acesso site amazon" line="9">
 <kw name="Abrir o navegador" owner="testesweb_resources" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-11-19T08:42:27.269873" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<msg time="2024-11-22T07:40:47.780509" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-11-19T08:42:27.269679" elapsed="3.881734"/>
+<status status="PASS" start="2024-11-22T07:40:47.780317" elapsed="3.663528"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-11-19T08:42:31.151718" elapsed="0.275574"/>
+<status status="PASS" start="2024-11-22T07:40:51.444398" elapsed="0.302010"/>
 </kw>
-<status status="PASS" start="2024-11-19T08:42:27.268793" elapsed="4.158972"/>
+<status status="PASS" start="2024-11-22T07:40:47.779425" elapsed="3.967439"/>
 </kw>
 <kw name="Acessar home page amazon" owner="testesweb_resources">
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2024-11-19T08:42:31.429673" level="INFO">Opening url 'https://www.amazon.com.br/'</msg>
+<msg time="2024-11-22T07:40:51.750013" level="INFO">Opening url 'https://www.amazon.com.br/'</msg>
 <arg>url=${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-11-19T08:42:31.429099" elapsed="1.865096"/>
+<status status="PASS" start="2024-11-22T07:40:51.749386" elapsed="1.674962"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>locator=${ELETRONICOS}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2024-11-19T08:42:33.294620" elapsed="0.546295"/>
+<status status="PASS" start="2024-11-22T07:40:53.424737" elapsed="0.550128"/>
 </kw>
-<status status="PASS" start="2024-11-19T08:42:31.428429" elapsed="2.412756"/>
+<status status="PASS" start="2024-11-22T07:40:51.748169" elapsed="2.226986"/>
 </kw>
 <kw name=" Clicar com menu eletronicos" owner="testesweb_resources">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-11-19T08:42:33.843219" level="INFO">Clicking element '//a[contains(text(), 'Eletrônicos') and contains(@class, 'nav-a')]'.</msg>
+<msg time="2024-11-22T07:40:53.978259" level="INFO">Clicking element '//a[contains(text(), 'Eletrônicos') and contains(@class, 'nav-a')]'.</msg>
 <arg>locator=${ELETRONICOS}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-19T08:42:33.842434" elapsed="3.376585"/>
+<status status="PASS" start="2024-11-22T07:40:53.976604" elapsed="3.287252"/>
 </kw>
-<status status="PASS" start="2024-11-19T08:42:33.841763" elapsed="3.377518"/>
+<status status="PASS" start="2024-11-22T07:40:53.975981" elapsed="3.288111"/>
 </kw>
-<kw name=" Verificar se aparece o texto &quot;eletronicos e tecnologia&quot;" owner="testesweb_resources">
+<kw name="Verificar se aparece o texto &quot;Eletrônicos e Tecnologia&quot;" owner="testesweb_resources" source_name=" Verificar se aparece o texto &quot;${ELETRONICOS}&quot;">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>text=Eletrônicos e Tecnologia</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-11-19T08:42:37.220492" elapsed="0.141557"/>
+<status status="PASS" start="2024-11-22T07:40:57.265023" elapsed="0.117586"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>locator=${MENU_ELETRONICOS}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2024-11-19T08:42:37.362551" elapsed="0.280559"/>
+<status status="PASS" start="2024-11-22T07:40:57.382989" elapsed="0.309878"/>
 </kw>
-<status status="PASS" start="2024-11-19T08:42:37.219816" elapsed="0.423463"/>
+<status status="PASS" start="2024-11-22T07:40:57.264528" elapsed="0.428501"/>
+</kw>
+<kw name="Verificar se o titulo da pagina fica &quot;Eletrônicos e Tecnologia | Amazon.com.br&quot;" owner="testesweb_resources" source_name="Verificar se o titulo da pagina fica &quot;${TITLE}&quot;">
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-11-22T07:40:57.696609" level="INFO">Page title is 'Eletrônicos e Tecnologia | Amazon.com.br'.</msg>
+<arg>title=${TITLE}</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-11-22T07:40:57.693936" elapsed="0.002898"/>
+</kw>
+<status status="PASS" start="2024-11-22T07:40:57.693539" elapsed="0.003517"/>
+</kw>
+<kw name="Verificar se aparece categoria Computadores e Informática" owner="testesweb_resources">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-11-22T07:40:57.926779" level="INFO">Element '//span[@class='dcl-truncate' and text()='Computadores e Informática']' is displayed.</msg>
+<arg>locator=${NOME_CATEGORIA}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-22T07:40:57.698121" elapsed="0.228884"/>
+</kw>
+<status status="PASS" start="2024-11-22T07:40:57.697528" elapsed="0.229778"/>
 </kw>
 <tag>categorias</tag>
 <tag>menus</tag>
-<status status="PASS" start="2024-11-19T08:42:27.267763" elapsed="10.375814"/>
+<status status="PASS" start="2024-11-22T07:40:47.778368" elapsed="10.149403"/>
 </test>
-<status status="PASS" start="2024-11-19T08:42:27.080896" elapsed="10.563418"/>
+<status status="PASS" start="2024-11-22T07:40:47.594204" elapsed="10.335673"/>
 </suite>
 <statistics>
 <total>

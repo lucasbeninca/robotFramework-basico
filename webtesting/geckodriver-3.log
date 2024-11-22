@@ -1,22 +1,27 @@
-1732016547335	geckodriver	INFO	Listening on 127.0.0.1:42515
-1732016547375	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "37415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9ZOTSD"
+1732271283100	geckodriver	INFO	Listening on 127.0.0.1:41189
+1732271283138	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55311" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXGZVxa"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1732016548360	Marionette	INFO	Marionette enabled
-1732016549020	Marionette	INFO	Listening on port 45299
-WebDriver BiDi listening on ws://127.0.0.1:37415
-Read port: 45299
-1732016549238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1732271284101	Marionette	INFO	Marionette enabled
+1732271284715	Marionette	INFO	Listening on port 33823
+WebDriver BiDi listening on ws://127.0.0.1:55311
+Read port: 33823
+1732271284917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
-DevTools listening on ws://127.0.0.1:37415/devtools/browser/99126beb-0139-4861-b7aa-c29f0c297c2f
-JavaScript warning: https://www.amazon.com.br/, line 3554: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-libva info: VA-API version 1.20.0
-libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
-libva info: Found init function __vaDriverInit_1_20
-libva error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
-libva info: va_openDriver() returns 1
-libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
-libva info: Found init function __vaDriverInit_1_20
-libva info: va_openDriver() returns 0
+DevTools listening on ws://127.0.0.1:55311/devtools/browser/f78d3137-f92e-4eeb-81b8-100651263ca2
+JavaScript warning: https://www.amazon.com.br/, line 3416: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522, line 5926: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://m.media-amazon.com/images/I/81LmaXL9x7L.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522, line 5874: Script terminated by timeout at:
+l@https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522:5874:262
+
+1732271315816	Marionette	INFO	Stopped listening on port 33823
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/language-dictionaries getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))

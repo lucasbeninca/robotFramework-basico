@@ -1,15 +1,17 @@
-1732270752228	geckodriver	INFO	Listening on 127.0.0.1:41279
-1732270752291	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50935" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUiBY5j"
+1732272047842	geckodriver	INFO	Listening on 127.0.0.1:55581
+1732272047884	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39087" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileL2Zj2Q"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1732270753534	Marionette	INFO	Marionette enabled
-1732270753911	Marionette	INFO	Listening on port 34047
-Read port: 34047
-WebDriver BiDi listening on ws://127.0.0.1:50935
-1732270754308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1732272048762	Marionette	INFO	Marionette enabled
+1732272049158	Marionette	INFO	Listening on port 35853
+Read port: 35853
+WebDriver BiDi listening on ws://127.0.0.1:39087
+1732272049466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
-DevTools listening on ws://127.0.0.1:50935/devtools/browser/95f2a7c1-81dc-4990-9b14-f77f69c391f9
-JavaScript warning: https://www.amazon.com.br/, line 3555: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+DevTools listening on ws://127.0.0.1:39087/devtools/browser/4f190208-5c6e-41c4-947f-e3bec041e100
+JavaScript warning: https://www.amazon.com.br/, line 3425: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 24255, MediaDecoderStateMachine #1] WARNING: Decoder=7a7be1bf9200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 24255, MediaDecoderStateMachine #1] WARNING: Decoder=7a7be1bf9200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:167
 libva info: VA-API version 1.20.0
 libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
 libva info: Found init function __vaDriverInit_1_20
@@ -22,4 +24,4 @@ JavaScript warning: https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF
 JavaScript warning: https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522, line 5874: Script terminated by timeout at:
 l@https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522:5874:262
 
-1732270780976	Marionette	INFO	Stopped listening on port 34047
+1732272070692	Marionette	INFO	Stopped listening on port 35853

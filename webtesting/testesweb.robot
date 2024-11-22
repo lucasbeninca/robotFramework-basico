@@ -11,8 +11,6 @@ Caso de teste 01 - Acesso site amazon
     [Tags]  menus  categorias
     Acessar home page amazon
     Clicar com menu eletronicos
-    Verificar se aparece o texto "eletronicos e tecnologia"
-
-    
-    # Verificar se o titulo da pagina fica eletronicos
-    # Verificar se aparece a frase xxxx
+    Verificar se aparece o texto "Eletrônicos e Tecnologia"
+    Verificar se o titulo da pagina fica "Eletrônicos e Tecnologia | Amazon.com.br"
+    Verificar se aparece categoria "Computadores e Informática"

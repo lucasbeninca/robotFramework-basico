@@ -1,0 +1,18 @@
+1732271852892	geckodriver	INFO	Listening on 127.0.0.1:57245
+1732271852930	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXyZTfI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1732271853815	Marionette	INFO	Marionette enabled
+1732271854187	Marionette	INFO	Listening on port 46103
+Read port: 46103
+WebDriver BiDi listening on ws://127.0.0.1:43299
+1732271854501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43299/devtools/browser/1db0b2e6-0e2c-45f5-880a-77a823d65f6d
+JavaScript warning: https://www.amazon.com.br/, line 1006: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81BKPXF14nL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51ExhNVPbdL.js,11yKORv-GTL.js,11GgN1+C7hL.js,313nCSj5srL.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01BF5+CcG3L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11RnlMIG5YL.js,11UNP9ncXuL.js,1174TO1N7GL.js,11EWRk6r74L.js,21paGe30x-L.js,01490L6yBnL.js,610n89LC1RL.js,01JYHc2oIlL.js,31-MbZeXPYL.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01Qg+q-fW4L.js,01RMmNcPMuL.js_.js?AUIClients/AmazonUI&WOBvLLbH#tablet.786834-T1, line 41: Script terminated by timeout at:
+u@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51ExhNVPbdL.js,11yKORv-GTL.js,11GgN1+C7hL.js,313nCSj5srL.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01BF5+CcG3L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11RnlMIG5YL.js,11UNP9ncXuL.js,1174TO1N7GL.js,11EWRk6r74L.js,21paGe30x-L.js,01490L6yBnL.js,610n89LC1RL.js,01JYHc2oIlL.js,31-MbZeXPYL.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01Qg+q-fW4L.js,01RMmNcPMuL.js_.js?AUIClients/AmazonUI&WOBvLLbH#tablet.786834-T1:41:336
+@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51ExhNVPbdL.js,11yKORv-GTL.js,11GgN1+C7hL.js,313nCSj5srL.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01BF5+CcG3L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11RnlMIG5YL.js,11UNP9ncXuL.js,1174TO1N7GL.js,11EWRk6r74L.js,21paGe30x-L.js,01490L6yBnL.js,610n89LC1RL.js,01JYHc2oIlL.js,31-MbZeXPYL.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01Qg+q-fW4L.js,01RMmNcPMuL.js_.js?AUIClients/AmazonUI&WOBvLLbH#tablet.786834-T1:44:466
+
+1732272040675	Marionette	INFO	Stopped listening on port 46103
