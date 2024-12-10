@@ -12,6 +12,8 @@ feito isso basta instalar o robote e seus pacotes dentro do venv criado
 *desativando o venv*
 usar  deactivate
 
+*Para Linux é necessaŕio usar o ambiente virtual do python python3 -m venv <nome-do-ambiente> e depois source nome-do-ambinete/bin/activate
+
 *exemplo de como pegar um bom seletor*
 * //a[contains(text(), 'Eletrônicos') and contains(@class, 'nav-a')]
 * //h2[contains(text(), 'Eletrônicos e Tecnologia') and contains (@class, 'a-size-base a-color-base apb-browse-refinements-indent-1 a-text-bold')]
